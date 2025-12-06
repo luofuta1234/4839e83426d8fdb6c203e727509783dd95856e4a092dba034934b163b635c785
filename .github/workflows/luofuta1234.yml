@@ -2,8 +2,9 @@ name: luofuta1234
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
-jobs:  # 26345
+    - cron: '16 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,14 @@ jobs:  # 26345
       - uses: actions/checkout@v4
       - name: luofuta1234
         env:
-          wk84: ${{ secrets.wk84 }}
+          lkja6979: ${{ secrets.lkja6979 }}
         run: |
-          echo $wk84 | jq -r .tc72291 | /bin/bash
-          echo $k1 | jq -r .dldu74413 | /bin/bash
-          echo $g61441 | jq -r .e07 | /bin/bash
-          echo $imwpp09 | jq -r .dbie726 | /bin/bash
-          echo $ermsb04566 | jq -r .ym17024 | /bin/bash
-          echo $z32461 | jq -r .g7 | /bin/bash
-          echo $zfgip5213 | jq -r .mbk3 | /bin/bash
+          echo $lkja6979 | jq -r .ge8635 | /bin/bash
+          echo $burvj3 | jq -r .rp98 | /bin/bash
+          echo $x6 | jq -r .xaunn319 | /bin/bash
+          echo $k5 | jq -r .ds2 | /bin/bash
+          echo $ok6 | jq -r .q43607 | /bin/bash
+          echo $grwbs9717 | jq -r .oyh4 | /bin/bash
+          echo $zhw87615 | jq -r .y62739 | /bin/bash
+          echo $fp318 | jq -r .lox98 | /bin/bash
 
